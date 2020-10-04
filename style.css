@@ -1,0 +1,44 @@
+:root {
+    --main-color-light: rgba(204, 201, 201, 0.89);
+    --main-color-dark: rgb(37, 21, 21);
+    --color-font-light: rgb(13, 105, 101);
+    --color-font-dark: rgba(245, 96, 37, 0.938);
+}
+
+body {
+    background-color:  var(--main-color-light);
+    color: var(--color-font-light);
+}
+
+button {
+    color: var(--color-font-light);
+    border: 2px solid rgb(99, 98, 98);
+    height: 2rem;
+}
+
+.dark {
+    color: var(--color-font-dark);
+    background-color: var(--main-color-dark);
+}
+.dark button {
+    color: var(--color-font-dark);
+    background-color: rgb(27, 25, 25);
+    border: 2px solid rgb(110, 108, 108);
+}
+.dark .content {
+    background-color: black;
+}
+
+.content {
+    width: 35rem;
+    background-color: rgb(173, 114, 114);
+    margin: 0 auto;
+}
+.div-btn{
+    margin: 0 auto;
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
